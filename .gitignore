@@ -1,0 +1,2 @@
+# Los .exe compilados se publican en Releases, no en el repositorio
+*.exe

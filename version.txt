@@ -1,0 +1,4 @@
+version=3.0.0
+url=https://github.com/gerardo9309/RUSCUU-Repara/releases/latest/download/RUSCUU.Repara.exe
+sha256=462A18DCDFFFBEB08782C495972198D358B2FF603262BAB3D601D3004BA0037D
+notas=Mejoras y correcciones.
