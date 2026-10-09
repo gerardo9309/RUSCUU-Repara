@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-7c3aed">
-  <img src="https://img.shields.io/badge/versión-3.0.0-a052ff">
+  <img src="https://img.shields.io/badge/versión-3.0.1-a052ff">
   <img src="https://img.shields.io/badge/idioma-español-c47840">
   <img src="https://img.shields.io/badge/sin%20dependencias-.NET%20Framework%204.x-6edc8c">
 </p>
@@ -108,7 +108,7 @@ Genera en la carpeta raíz `RUSCUU Repara.exe`, `RUSCUU Repara - Instalador.exe`
 2. Crea un *Release* en GitHub y adjunta los dos `.exe`.
 3. Sube el `version.txt` generado al repositorio.
 4. El programa ya busca actualizaciones en esta dirección (se puede cambiar en **Ajustes › Actualizaciones**):
-   `https://raw.githubusercontent.com/gerardo9309/RUSCUU-Repara/main/version.txt`
+   `https://raw.githubusercontent.com/ruscuu/RUSCUU-Repara/main/version.txt`
 
 Los programas instalados avisarán de la nueva versión y se actualizarán solos, comprobando la huella SHA-256.
 

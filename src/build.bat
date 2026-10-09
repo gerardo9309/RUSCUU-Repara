@@ -31,7 +31,7 @@ if errorlevel 1 goto :error
 call :sign "%SETUP%"
 
 echo [4/4] Generando version.txt...
-powershell -NoProfile -Command "$v = (Get-Item '%APP%').VersionInfo.ProductVersion -replace '\.0$',''; $h = [BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash([IO.File]::ReadAllBytes('%APP%'))).Replace('-',''); [IO.File]::WriteAllLines('%OUT%\version.txt', [string[]]@(('version=' + $v), 'url=https://github.com/gerardo9309/RUSCUU-Repara/releases/latest/download/RUSCUU.Repara.exe', ('sha256=' + $h), 'notas=Mejoras y correcciones.'))"
+powershell -NoProfile -Command "$v = (Get-Item '%APP%').VersionInfo.ProductVersion -replace '\.0$',''; $h = [BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash([IO.File]::ReadAllBytes('%APP%'))).Replace('-',''); [IO.File]::WriteAllLines('%OUT%\version.txt', [string[]]@(('version=' + $v), 'url=https://github.com/ruscuu/RUSCUU-Repara/releases/latest/download/RUSCUU.Repara.exe', ('sha256=' + $h), 'notas=La cuenta de GitHub ahora es ruscuu (nueva URL de actualizaciones).'))"
 
 echo.
 echo Listo:

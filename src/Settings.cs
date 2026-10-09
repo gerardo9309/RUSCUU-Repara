@@ -13,7 +13,7 @@ namespace Ruscuu
 {
     static class AppInfo
     {
-        public const string Version = "3.0.0";
+        public const string Version = "3.0.1";
         public const string Name = "RUSCUU Repara";
     }
 
@@ -120,6 +120,6 @@ namespace Ruscuu
         }
 
         // ---- actualizaciones
-        public static string UpdateUrl { get { return Get("update_url", "https://raw.githubusercontent.com/gerardo9309/RUSCUU-Repara/main/version.txt"); } }
+        public static string UpdateUrl { get { return Get("update_url", "https://raw.githubusercontent.com/ruscuu/RUSCUU-Repara/main/version.txt"); } }
     }
 }
